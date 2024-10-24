@@ -37,6 +37,9 @@
               eza
               fd
               rustpkg
+              (python313.withPackages (ps: with ps;[
+                pillow
+              ]))
             ];
 
             shellHook = ''
