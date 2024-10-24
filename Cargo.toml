@@ -1,0 +1,14 @@
+[package]
+name = "IntegriSys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.14.0", features = ["wgpu", "train"] }
+image = "0.25.4"
+log = "0.4.22"
+
+
+[build-dependencies]
+burn-import = "0.14.0"
+
